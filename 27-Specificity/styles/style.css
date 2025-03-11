@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: IRANSansX;
+    
+}
+
+body{
+    font-size: 18px;
+}
+
+.container{
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+/* 
+    Inline Css
+    Id
+    Class , Pseudo-class , Attribute selectors
+    Elements and pseudo-element 
+
+*/
+
+#title{
+    color: blue;
+}
+
+h1{
+    color: blueviolet;
+}
+
+.title{
+    color: aquamarine;
+}
+
+h1{
+    color: orange !important;
+}

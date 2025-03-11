@@ -1,0 +1,82 @@
+/* .cover{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(red,blue);
+} */
+
+/* ---------------------------------------------------- */
+
+/* .cover{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(to left,red,blue);
+} */
+
+/* ---------------------------------------------------- */
+/* .cover{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(to top,red,blue);
+} */
+
+/* ---------------------------------------------------- */
+/* .cover{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right bottom,red,blue);
+} */
+
+
+
+/* ---------------------------------------------------- */
+/* .cover {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background:  linear-gradient(190deg, rgba(231, 5, 182,0.5), rgba(0, 238, 255,0.5)),
+ url("../../22-exercise/images/img2.jpg");
+  
+} */
+/* ---------------------------------------------------- */
+/* .cover {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background: url("../../22-exercise/images/img2.jpg"),
+  linear-gradient(190deg, red, blue);
+  background-blend-mode: overlay;
+} */
+
+/* ---------------------------------------------------- */
+/* .cover {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background: url("../../22-exercise/images/img2.jpg"),
+    linear-gradient(190deg, red, blue);
+  background-blend-mode: darken;
+}  */
+/* ---------------------------------------------------- */
+/* .cover {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background: url("../../22-exercise/images/img2.jpg"),
+    linear-gradient(190deg, red, blue);
+  background-blend-mode: lighten;
+}  */
+
+/* ----------------------------------------------------*/
+/* .cover {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background: url("../../22-exercise/images/img2.jpg"),
+    linear-gradient(190deg, red, blue);
+  background-blend-mode: screen;
+} */
+

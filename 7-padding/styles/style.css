@@ -1,0 +1,63 @@
+/*padding*/
+/*p{
+    font-size:25px;
+    border: 1px solid red;
+    padding: 40px;
+}*/
+/*---------------------------------------------------------*/
+
+
+/*padding left*/
+/*
+p{
+    font-size:25px;
+    border: 1px solid red;
+    padding-left: 20px;
+}*/
+/*---------------------------------------------------------*/
+
+
+/*padding right*/
+/*p {
+    font-size: 25px;
+    border: 1px solid red;
+    padding-right: 80px;
+}*/
+
+
+/*padding top*/
+/*p{
+    font-size:25px;
+    border: 1px solid red;
+    padding-top: 60px;
+}*/
+/*---------------------------------------------------------*/
+
+
+/*padding bottom*/
+/*
+p {
+    font-size: 25px;
+    border: 1px solid red;
+    padding-bottom: 40px;
+}*/
+/*---------------------------------------------------------*/
+
+
+/*padding*/
+/*
+p{
+    font-size: 25px;
+    border: 1px solid red;
+    padding: 20px 40px 60px 80px; !*top right bottom left*!
+}*/
+/*---------------------------------------------------------*/
+
+
+/*padding*/
+/*
+p{
+    font-size: 25px;
+    border: 1px solid red;
+    padding: 100px 200px; !*top  bottom right left*!
+}*/

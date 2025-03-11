@@ -1,0 +1,38 @@
+html {
+  font-family: "IRANSansX";
+  box-sizing: border-box;
+}
+
+div {
+  background-color: #e91e63;
+  width: 600px;
+  height: 450px;
+  color: aliceblue;
+  padding: 25px;
+  border-radius: 12px;
+  margin: auto;
+  text-align: justify;
+}
+
+h1 {
+  margin-bottom: 12px;
+  text-shadow: 1px 1px 5px #2196f3;
+}
+p {
+  margin-bottom: 14px;
+}
+
+
+
+ul {
+  margin-bottom: 14px;
+  list-style-image: url("../images/icon.svg");
+  list-style-position: inside;
+}
+
+
+a {
+  font-size: 18px;
+  color: aliceblue;
+  margin: 20px;
+}

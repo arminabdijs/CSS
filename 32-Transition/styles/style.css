@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.container{
+  width: 1280px;
+  margin:0 auto;
+}
+
+.box
+{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  /* transition: all 250ms ease-in 2s; */
+  transition: width 250ms ease-in 2s;
+}
+
+.box:hover{
+  background-color: chocolate;
+  width: 400px;
+}

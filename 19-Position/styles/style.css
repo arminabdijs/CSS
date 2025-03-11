@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto;
+  background-color: aqua;
+  font-size: 32px;
+}
+
+header,
+main,
+footer {
+  height: 200px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: aliceblue;
+  line-height: 200px;
+}
+/* default position static */
+/* header{
+    background-color: chocolate;
+    position:static ;
+} */
+
+/* position:relative ;
+right: ;
+bottom: ;
+left: ;
+top: ; */
+/* header {
+  background-color: chocolate;
+  position: relative;
+  right: 20px;
+} */
+
+/* main {
+  background-color: crimson;
+  height: 1500px;
+}
+
+!*position: fixed*!
+footer {
+  background-color: darkorchid;
+  position: fixed;
+  left: 0;
+  top: 0;
+} */
+
+/* position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+inset :0 */
+/* 
+header {
+  background-color: chocolate;
+  position: relative;
+  
+}
+.header_child{
+  !* width: 100px; *!
+  !* height: 100px; *!
+  background-color: rgb(43, 255, 0);
+  position: absolute;
+  !* bottom: 0; *!
+  !* top: 0; *!
+  !* right: 0; *!
+  !* left: 0; *!
+  inset: 0;
+
+}
+
+main {
+  background-color: crimson;
+  height: 1500px; 
+
+}
+
+footer {
+  background-color: darkorchid;
+ 
+} */
+
+/* 
+position sticky 
+
+ */
+
+header {
+  background-color: chocolate;
+  position: relative;
+}
+
+main {
+  background-color: crimson;
+  position: sticky;
+  top: 0;
+}
+.test{
+  height: 2000px;
+}
+
+footer {
+  background-color: darkorchid;
+}

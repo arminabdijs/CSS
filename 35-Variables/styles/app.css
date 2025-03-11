@@ -1,0 +1,24 @@
+:root{
+  --pink:#ff0080; 
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto;
+}
+
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 600px;
+  height: 700px;
+  margin-top: 20px;
+  /* box-shadow: 1px 1px 20px -4px var(--pink);  */
+  box-shadow: 1px 1px 20px -4px var(--pink1,rgb(255, 196, 0)); 
+  background-color: aqua;
+}
+

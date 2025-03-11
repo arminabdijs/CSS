@@ -1,0 +1,37 @@
+div {
+  background-color: #e91e63;
+  width: 600px;
+  height: 300px;
+  color: aliceblue;
+  padding: 12px;
+  border-radius: 12px;
+  margin: auto;
+}
+
+a {
+  font-size: 18px;
+  color: aliceblue;
+  margin: 20px;
+}
+
+a:hover {
+  color: #039be5;
+}
+
+a:active {
+  background-color: #d3c60e;
+}
+
+a:visited{
+    color: #3700ff;
+}
+
+
+input:focus{
+    outline-color: rgb(173, 21, 135);
+}
+
+
+h1:hover + p{
+    color: #d3c60e;
+}

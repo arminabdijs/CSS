@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/*? transform: rotate */
+/* .box {
+  margin-top: 165px;
+  width: 360px;
+  height: 200px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(185, 5, 140, 0.5),
+      rgba(223, 8, 115, 0.2)
+    ),
+    url("../images/wp1904105-developer-wallpapers.jpg");
+  background-size: 100%;
+  transform: rotate(45deg);
+} */
+
+/* ? transform: scale */
+.box {
+  margin-top: 165px;
+  width: 360px;
+  height: 200px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(185, 5, 140, 0.5),
+      rgba(223, 8, 115, 0.2)
+    ),
+    url("../images/wp1904105-developer-wallpapers.jpg");
+  background-size: 100%;
+  transition: all 0.8s ease-in;
+}
+
+.box:hover {
+  transform: scale(2);
+}
+
+/*? transform: skew */
+
+.box {
+  margin-top: 165px;
+  width: 360px;
+  height: 200px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(185, 5, 140, 0.5),
+      rgba(223, 8, 115, 0.2)
+    ),
+    url("../images/wp1904105-developer-wallpapers.jpg");
+  background-size: 100%;
+  transition: all 0.8s ease-in;
+}
+
+.box:hover {
+  transform: skew(10deg);
+}
+
+
+/*? transform: translate */
+
+.box {
+  margin-top: 165px;
+  width: 360px;
+  height: 200px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(185, 5, 140, 0.5),
+      rgba(223, 8, 115, 0.2)
+    ),
+    url("../images/wp1904105-developer-wallpapers.jpg");
+  background-size: 100%;
+  transition: all 0.8s ease-in;
+}
+
+.box:hover {
+  /* transform: translateX(20px); */
+  /* transform: translateY(20px); */
+  transform: translate(20px,50px);
+  transform-origin: 45px;
+}
+
+
+
+/*? transform: translate */
+
+.box {
+  margin-top: 165px;
+  width: 360px;
+  height: 200px;
+  background: linear-gradient(
+      to right bottom,
+      rgba(185, 5, 140, 0.5),
+      rgba(223, 8, 115, 0.2)
+    ),
+    url("../images/wp1904105-developer-wallpapers.jpg");
+  background-size: 100%;
+  transition: all 0.8s ease-in;
+}
+
+.box:hover {
+  /* transform: translateX(20px); */
+  /* transform: translateY(20px); */
+  transform: rotate(20deg);
+  transform-origin: 45px;
+}

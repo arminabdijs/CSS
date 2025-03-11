@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto;
+  background-color: aqua; 
+  font-size: 32px;  
+}
+
+header,
+main,
+footer {
+    height: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: aliceblue;
+    line-height: 100px;
+    
+}
+
+header{
+    background-color: chocolate;
+}
+
+main{
+    background-color: crimson;
+}
+
+footer{
+    background-color: darkorchid;
+}

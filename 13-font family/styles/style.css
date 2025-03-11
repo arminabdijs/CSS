@@ -1,0 +1,35 @@
+/* fallback font */
+/* p {
+  font-family: "IRANSansX",Cursive;
+} */
+
+/* ---------------------------------------------------- */
+/* @font-face {
+  font-family: "Vazir Light";
+  src: url("../fonts/Vazirmatn-ExtraBold.ttf");
+} */
+/* ---------------------------------------------------- */
+/* format :{
+              trueType=font/ttf; 
+              openType=font/otf; 
+              woff=font/woff;
+              woff2=font/woff2;
+
+} */
+/* @font-face {
+  font-family: "Vazir Light";
+  src: url("../fonts/Vazirmatn-ExtraBold.ttf") format("trueType"),
+    url("../fonts/Vazirmatn-ExtraBold.woff2") format("woff2");
+} */
+
+/* --------------------------------------------------------- */
+@font-face {
+  font-family: "Vazir Light";
+  src: local("Vazir Light"), local("Vazir-Light"),
+    url("../fonts/Vazirmatn-ExtraBold.ttf") format("trueType"),
+    url("../fonts/Vazirmatn-ExtraBold.woff2") format("woff2");
+}
+/* --------------------------------------------------------- */
+p {
+  font-family: "Vazir Light";
+}

@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* ----------------------------------------- */
+
+/* :root */
+:root {
+  font-size: 25px;
+  direction: rtl;
+  background-color:black ;
+  color: aqua;
+  font-family: IRANSansX;
+}
+
+html {
+  direction: ltr;
+}
+
+/* ----------------------------------------- */
+.container{
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+    margin-bottom: 150px;
+}
+
+.alert{
+    display: none;
+}
+/* :checked */
+.checkbox:checked + .alert{
+    display: block;
+}
+
+/* ----------------------------------------- */
+/* :first-child */
+.item:first-child{
+    color: tomato;
+}
+
+/* ----------------------------------------- */
+/* :last-child */
+.item:last-child{
+    color: chartreuse;
+}
+
+/* ----------------------------------------- */
+/* :nth-child(n) */
+/* .item2:nth-child(4){
+    color: rgb(235, 12, 116);
+} */
+/* .item2:nth-child(even){
+    color: rgb(235, 12, 116);
+} */
+.item2:nth-child(odd){
+    color: rgb(235, 12, 116);
+}
+/* ----------------------------------------- */
+/* :not(selector) */
+.list .item3:not(.item-delete){
+    color: rgb(235, 12, 116);
+
+}
+
+/* ----------------------------------------- */
+/* :empty */
+.content:empty{
+    border: 2px solid rgb(235, 12, 116);
+    padding: 14px;
+}

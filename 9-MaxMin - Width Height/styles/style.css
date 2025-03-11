@@ -1,0 +1,16 @@
+/* max-width */
+/* min-width */
+
+/* max-height */
+/* min-height */
+
+.cl1 {
+  width: 400px;
+  height: 200px;
+  background-color: #FB8C00;
+}
+
+p{
+    max-width: 500px;
+    min-width: 300px;
+}

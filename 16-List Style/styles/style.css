@@ -1,0 +1,67 @@
+/* ul.a {
+  list-style-type: circle;
+} */
+
+/* ul.b {
+  list-style-type: square;
+} */
+
+/* ol.c {
+  list-style-type: upper-roman;
+} */
+
+/* ol.d{
+    list-style-type: lower-roman;
+} */
+
+/* ol.e {
+  list-style-type: lower-alpha;
+} */
+
+/* ol.f{
+    list-style-type: upper-alpha;
+} */
+html{
+    font-family: "IRANSansX";
+}
+
+div {
+  background-color: #e91e63;
+  width: 600px;
+  height: 450px;
+  color: aliceblue;
+  padding: 12px;
+  border-radius: 12px;
+  margin: auto;
+}
+
+h1{
+    margin-bottom: 12px;
+    text-shadow: 1px 1px 5px #2196F3;
+}
+p{
+    margin-bottom: 14px;
+}
+
+/* ul{
+    margin-bottom: 14px;
+    list-style-image: url("../images/icon.svg");
+} */
+
+ul{
+    margin-bottom: 14px;
+    list-style-image: url("../images/icon.svg");
+    list-style-position:inside ;
+}
+
+/* ul{
+    margin-bottom: 14px;
+    list-style-image: url("../images/icon.svg");
+    list-style-position:outside ;
+} */
+
+a {
+  font-size: 18px;
+  color: aliceblue;
+  margin: 20px;
+}

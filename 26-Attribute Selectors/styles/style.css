@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: IRANSansX;
+    
+}
+
+body{
+    font-size: 18px;
+}
+
+.container{
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+}
+
+/* [attribute] */
+/* [type]{
+    background-color: aquamarine;
+} */
+/* [attribute = "value"] */
+/* [type="text"]{
+    background-color: aqua;
+} */
+/* [attribute ^= "value"] */
+/* [href^="https"]{
+    background-color: aqua;
+} */
+/* [attribute $= "value"] */
+/* [href$="t.com"]{
+    background-color: aqua;
+} */

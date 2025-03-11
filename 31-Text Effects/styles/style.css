@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+.container {
+  width: 1280px;
+  margin: 56px auto 0 auto;
+}
+
+.text {
+  font-size: 24px;
+  background:aqua;
+  width: 600px;
+  height: 600px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  writing-mode: vertical-lr;
+}

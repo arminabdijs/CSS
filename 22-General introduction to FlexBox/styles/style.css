@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+/* .container {
+  width: 1280px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.flex-item {
+  width: 200px;
+  height: 200px;
+  background-color: #1976d2;
+  margin: 10px;
+} */
+
+/* ---------------------------------------- */
+.container {
+  width: 1280px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #bd1212;
+  display: flex;
+  
+}
+
+.flex-item {
+  width: 200px;
+  height: 200px;
+  background-color: #1976d2;
+  margin: 10px;
+}
+
+/* ---------------------------------------- */
+/* .container {
+  width: 1280px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 12px;
+  
+}
+
+.flex-item {
+  width: 200px;
+  height: 200px;
+  background-color: #1976d2;
+  
+} */
+
+/* ------------------------------------------ */
+/* .container {
+  width: 1280px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  
+}
+
+.flex-item {
+  width: 400px;
+  height: 200px;
+  background-color: #1976d2;
+  
+} */
+
+/* ----------------------------------- */
+/* .container {
+  width: 1280px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 12px;
+  border: 1px solid black;
+  justify-content: center;
+} */
+ /* ---------------------------------------- */
+/* .container {
+  width: 1280px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 12px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+} */
+/* --------------------------------------------------- */
+/* .container {
+  width: 1280px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 12px;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.flex-item {
+  width: 200px;
+  background-color: #1976d2;
+}
+
+.flex-item__blue {
+  background-color: #1976d2;
+  height: 50px;
+}
+.flex-item__red {
+  background-color: #d81b60;
+  height: 100px;
+}
+.flex-item__green {
+  background-color: #76ff03;
+  height: 150px;
+}
+.flex-item__orange {
+  background-color: #ff9100;
+  height: 200px;
+}

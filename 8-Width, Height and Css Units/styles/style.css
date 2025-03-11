@@ -1,0 +1,109 @@
+
+/* .content{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+}
+ */
+/* Absolute */
+
+/*? px */
+/* .box{
+    height: 300px;
+    background-color: aquamarine;
+} */
+
+
+/*? % */
+/* .box{
+    height: 30%;
+    background-color: aquamarine;
+} */
+
+/*?پوینت pt pt=۱.۳۳۳px (۱۶pt ≈ ۲۱px)*/
+/* .box{
+    height: 30pt;
+    background-color: aquamarine;
+} */
+
+
+/*?پیکا pc ۱pc = ۱۲pt = ۱۶px */
+/* .box{
+    height: 19pc;
+    background-color: aquamarine;
+} */
+
+
+/*? ۱cm ≈ ۳۷.۸px */
+/* .box{
+    height: 10cm;
+    background-color: aquamarine;
+} */
+
+/*? ۱mm ≈ ۳.۷۸px */
+/* .box{
+    height: 10mm;
+    background-color: aquamarine;
+} */
+
+/* ?۱in = ۹۶px اینچ  */
+/* .box{
+    height: 10in; 
+    background-color: aquamarine;
+} */
+
+
+/* Relative */
+
+/* ?1em = 16px */
+/* .box{
+    height: 10em; 
+    background-color: aquamarine;
+}  */
+
+
+/* ?1rem = 16px */
+/* html{
+    font-size: large;
+}
+.box{
+    height: 10rem; 
+    background-color: aquamarine;
+}  */
+
+/* ?1vw = ۱٪ */
+/*  عرض ویوپورت */
+/* .box{
+    height: 10vw; 
+    background-color: aquamarine;
+}  */
+
+/* 1vh = ۱٪ */
+/*  ارتفاع ویوپورت */
+/* .box{
+    height: 10vh; 
+    background-color: aquamarine;
+}  */
+
+/* ? 1vmin = 5px*/
+/* 1000px × 500px، */
+/* کوچک‌ترین مقدار بین vw و vh */
+/* .box{
+    height: 10vmin; 
+    background-color: aquamarine;
+}  */
+
+
+/*  1vmax = 10px */
+/* .box{
+    height: 10vmax; 
+    background-color: aquamarine;
+}  */
+
+/* 1ex ≈ 0.5em=> 8px */
+/* .box{
+    height: 10ex; 
+    background-color: aquamarine;
+}  */
+
+

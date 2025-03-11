@@ -1,0 +1,353 @@
+/*Color*/
+/*.paragraph {
+    color: red;
+}*/
+
+/*.paragraph {
+    color: #979892;
+}*/
+
+/*.paragraph {
+    color: rgba(255, 34, 255);
+}*/
+/*---------------------------------------------------------*/
+/*background color*/
+/*
+.paragraph{
+    font-size: 30.paragraphx;
+    background-color: #21f0f0;
+}*/
+/*---------------------------------------------------------*/
+/* background image */
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    
+} */
+/*---------------------------------------------------------*/
+/* background size */
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-size: 100%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background repeat */
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background attachment  fixed*/
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background attachment  local*/
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background attachment  scroll*/
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background position  center*/
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 50%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background position  bottom*/
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 50%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background position  top*/
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 50%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background position  left*/
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: 50%;
+}
+.mybg h1{
+    color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/* background position  right*/
+/* .mybg{
+    width: 800px;
+    height: 800px;
+    background-image: url('../images/wp1904105-developer-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 50%;
+}
+.mybg h1{
+    color: aquamarine;
+}
+} */
+/*---------------------------------------------------------*/
+/* background shorthand*/
+/* 
+background-color
+background-image
+background-repeat
+background-attachment
+background-position */
+/* .mybg {
+  width: 800px;
+  height: 800px;
+  background:url("../images/wp1904105-developer-wallpapers.jpg") no-repeat
+  fixed center ;
+  background-size: 50%;
+}
+.mybg h1 {
+  color: aquamarine;
+} */
+/*---------------------------------------------------------*/
+/*Font Size*/
+/*.paragraph {
+    font-size: 1.5em;
+}*/
+
+/*.paragraph {
+    font-size: 15px;
+}*/
+
+/*.paragraph {
+    font-size: 550%;
+}*/
+/*---------------------------------------------------------*/
+
+/*border*/
+/*
+.paragraph{
+    font-size: 30px;
+    border: 1px solid #de0c0c;
+}*/
+
+/*.paragraph{
+    font-size: 30px;
+    border: 1px dashed #de0c0c;
+
+}*/
+
+/*.paragraph{
+    font-size: 30px;
+    border: 1px dotted #de0c0c;
+
+}*/
+
+/*.paragraph{
+    font-size: 30px;
+    border: 5px double #de0c0c;
+}*/
+/*---------------------------------------------------------*/
+
+/*width*/
+/*.paragraph {
+    font-size: 30px;
+    width: 50%;
+    border: 5px solid #de0c0c;
+}*/
+/*---------------------------------------------------------*/
+
+/*max width*/
+/*.paragraph{*/
+/*    font-size: 30px;*/
+/*    width: 50%;*/
+/*    max-width: 500px;*/
+/*    border: 5px solid #de0c0c;*/
+/*}*/
+/*---------------------------------------------------------*/
+
+/*text decoration*/
+/*.paragraph {
+    font-size: 30px;
+    text-decoration: underline;
+}*/
+
+/*.paragraph {
+    font-size: 30px;
+    text-decoration: overline;
+}*/
+
+/*.paragraph {
+    font-size: 30px;
+    text-decoration: line-through;
+}*/
+
+/*.paragraph {
+    font-size: 30px;
+    text-decoration: none;
+}*
+
+/*---------------------------------------------------------*/
+
+/*letter spacing*/
+/* .paragraph{
+    font-size: 30px;
+    text-indent: 20px;
+} */
+/*---------------------------------------------------------*/
+/*letter spacing*/
+/* .paragraph{
+    font-size: 30px;
+    letter-spacing: 20px;
+} */
+/*---------------------------------------------------------*/
+
+/*word spacing*/
+/*
+.paragraph {
+    font-size: 30px;
+    word-spacing: 50px;
+}*/
+/*---------------------------------------------------------*/
+
+/*line height*/
+/*
+.paragraph{
+    font-size: 30px;
+    line-height: 90px;
+}*/
+
+/*---------------------------------------------------------*/
+
+/* white-space */
+/* .p{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 16px;
+
+}
+ */
+/* .paragraph{
+    font-size: 30px;
+    white-space: nowrap;
+} */
+
+/* .paragraph{
+    font-size: 30px;
+    white-space: wrap;
+} */
+
+/* .paragraph{
+    font-size: 16px;
+    white-space: pre-wrap;
+} */
+
+/*---------------------------------------------------------*/
+/*text transform*/
+/*
+.paragraph{
+    font-size: 30px;
+    text-transform: capitalize;
+}*/
+
+/*.paragraph{
+    font-size: 30px;
+    text-transform: lowercase;
+}*/
+
+/*.paragraph{
+    font-size: 30px;
+    text-transform: uppercase;
+}*/
+/*---------------------------------------------------------*/
+
+/*box sizing */
+/*
+.paragraph{
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 500px;
+}*/
+
+/*text align*/
+/*.paragraph {
+    font-size: 30px;
+    text-align: center;
+}*/
+/*---------------------------------------------------------*/
+
+/*text shadow*/
+.paragraph {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px red;
+}

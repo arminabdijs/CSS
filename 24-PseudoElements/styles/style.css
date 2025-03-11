@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-size: 25px;
+  direction: rtl;
+  background-color: black;
+  color: aqua;
+  font-family: IRANSansX;
+}
+
+.container {
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 56px;
+  margin-bottom: 150px;
+}
+
+/* ------------------------------------------- */
+
+.title::before {
+  content: "متن تستی ";
+}
+
+.title::after {
+  content: " جهت نمایش ";
+}
+
+
+.p1::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+
+.p2::first-letter {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+
+  ::marker{
+    color: #e92e4d;
+    font-variant: small-caps;
+  }
+
+
+.select::selection{
+    color: chartreuse;
+    background-color: chocolate;
+}
+
+.title2::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+h1{
+    padding-right: 30px;
+    position: relative;
+}
+
+
+.del::after{
+    content: "";
+    width: 65px;
+    height: 2px;
+    display: block;
+    background-color: darkgray;
+    position: absolute;
+    margin: auto 0;
+    right: 0;
+    top: 0;
+    bottom: 6px;
+    border-radius: 50%;
+   
+
+}
+
+.del{
+    position: relative;
+    padding: 5px;
+}

@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "shabnam";
+  src: url("../fonts/Shabnam-FD.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "shabnam", sans-serif;
+  background-color: aliceblue;
+}
+.container {
+  width: 1216px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 56px;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.section__title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.section__title-icon {
+  width: 22px;
+  height: 22px;
+  color: #0441c5;
+}
+
+.section__link {
+  text-decoration: none;
+  color: #0441c5;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.product {
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  padding: 24px;
+}
+.product__image {
+  width: 100%;
+}
+.product__name {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+  height: 70px;
+}
+.product__link {
+  text-decoration: none;
+  color: #212121;
+
+}
+.product__offer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-top: 12px;
+}
+.product__offer-percent {
+  background-color: #e3f2fd;
+  border-radius: 10%;
+  color: #1976d2;
+  font-weight: bold;
+  padding: 2px 4px;
+  display: inline-block;
+}
+.product__offer-price {
+  color: #546E7A;
+  text-decoration: line-through;
+}
+.product__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.product__price{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.product__price-number {
+  
+  font-weight: bold;
+  font-size: 18px;
+}
+.product__price-unit {
+  font-size: 14px;
+}
+.product__rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.product__rating-number {
+  font-size: 14px;
+  color: #546E7A;
+}
+.product__rating-icon {
+  width: 18px;
+  height: 18px;
+  color: #f1c21b;
+}
+ 

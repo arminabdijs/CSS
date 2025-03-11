@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: IRANSansX;
+}
+
+body {
+  font-size: 18px;
+}
+
+.container {
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  background-color: antiquewhite;
+}
+
+/* calc() */
+/* .box{
+    width: calc(100% - 10px);
+    height: 300px;
+    background-color: aqua;
+} */
+
+/* min() */
+/* .box{
+    width: min(220px ,10px,10rem ,50%);
+    height: 300px;
+    background-color: aqua;
+} */
+
+/* max() */
+/* .box{
+    width: max(220px ,10px,10rem ,50%);
+    height: 300px;
+    background-color: aqua;
+} */
+
+/* clamp() */
+.box {
+  width: clamp(200px, 50%, 800px);
+  height: 300px;
+  background-color: aqua;
+}

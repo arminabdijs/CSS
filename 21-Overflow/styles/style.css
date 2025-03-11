@@ -1,0 +1,26 @@
+/* overflow: visible; :default */
+
+div{
+    margin: auto;
+    width: 380px;
+    height: 400px;
+    background-color: chocolate;
+    padding: 15px;
+    text-align:justify;
+
+    /* overflow: visible; */
+
+    /* overflow: hidden; */
+
+    /* overflow: scroll; */
+
+    /* overflow: auto; */
+
+    /* overflow-y: auto; */
+
+    /* overflow-x: auto;  */
+}
+/* 
+p{
+    width: 800px;
+} */
