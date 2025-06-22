@@ -16,11 +16,10 @@ div{
 
     /* overflow: auto; */
 
+
     /* overflow-y: auto; */
 
-    /* overflow-x: auto;  */
+    /* white-space: nowrap;
+    overflow-x: auto;  */
 }
-/* 
-p{
-    width: 800px;
-} */
+

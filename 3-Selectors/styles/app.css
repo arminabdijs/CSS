@@ -2,6 +2,7 @@
 /* p{
     color: aqua;
 } */
+
 /* Id */
 /* #mytext{
     color: blue;
@@ -11,15 +12,17 @@
 /* .myclass{
     color: green;
 } */
-/* 
-p.myclass{
+
+/* p.myclass{
     background-color: brown;
 } */
 
 /* All Elements */
-/*  *{
+/* *{
     background-color: rgb(0, 0, 0);
+    color: aqua;
 } */
+
 
 /* Grouping */
 /*  p, h1, h2{
@@ -27,7 +30,7 @@ p.myclass{
 } */
 
 /* element element */
-/* .mysection .content-1{
+/* .mysection .content-1,.mysection .content-2{
     color: red; 
 } */
 
@@ -35,17 +38,18 @@ p.myclass{
     background-color: cadetblue;
 } */
 
-/* element > element */
-
-/* .mysection > div{
+/* element > element
+.mysection > div{
     background-color: lightgreen;
 } */
+
 /* element1 + element2 */
 /* h1 + h2 {
   color: yellow;
-}
- */
+} */
+
+
 /* element1 ~ element2 */
-h1 ~ h2 {
+/* h1 ~ h2 {
   color: yellow;
-}
+} */

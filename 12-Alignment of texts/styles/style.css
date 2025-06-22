@@ -8,50 +8,34 @@ body {
   font-family: IRANSanX;
 }
 
-/* div{
-    background-color: rgb(19, 32, 209);
-    color: aliceblue;
-    padding: 12px;
-    border-radius: 12px;
-    margin: 50px 24px 0px 24px;
+div {
+  background-color: rgb(19, 32, 209);
+  color: aliceblue;
+  padding: 16px;
+  border-radius: 12px;
+  margin: 50px 24px 0px 24px;
+}
 
-} */
+/* direction */
+div {
+  direction: rtl;
+}
 
 /* text-align */
 
 div {
-  background-color: rgb(19, 32, 209);
-  color: aliceblue;
-  padding: 12px;
-  border-radius: 12px;
-  margin: 50px 24px 0px 24px;
-  /* //text-align: end;
-  //text-align: left;
-  //text-align: right;
-  //text-align: start; */
+  /* text-align: end; */
+  /* text-align: left; */
+  /* text-align: right; */
+  /* text-align: start;  */
   /* text-align: justify; */
 }
 
 /* text-align-last */
-/* p {
-  background-color: rgb(19, 32, 209);
-  color: aliceblue;
-  padding: 12px;
-  border-radius: 12px;
-  margin: 50px 24px 0px 24px;
-  //* text-align-last: center; 
-  //* text-align-last: right; 
-  //* text-align-last: left; 
-  //* text-align-last: justify;
-} */
-
-/* direction */
-/* div {
-  background-color: rgb(19, 32, 209);
-  color: aliceblue;
-  padding: 12px;
-  border-radius: 12px;
-  margin: 50px 24px 0px 24px;
-  direction: rtl;
-} */
-
+p {
+  padding-top: 15px;
+  /* text-align-last: center;  */
+  /* text-align-last: right;  */
+  /* text-align-last: left;  */
+  /* text-align-last: justify; */
+}

@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 24px;
   width: 200px;
   margin-top: 50px;
@@ -14,12 +14,10 @@ button {
   outline: none;
 } */
 
-button{
-    outline: 2px solid red;
-   
+/* button {
+  outline: 2px solid red;
 }
 
-
-input{
-    outline-color: aquamarine;
-}
+input {
+  outline-color: aquamarine;
+} */

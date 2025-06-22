@@ -18,6 +18,15 @@ footer {
   color: aliceblue;
   line-height: 200px;
 }
+header{
+  background-color: rgb(255, 187, 0);
+}
+main{
+  background-color:crimson ;
+}
+footer{
+  background-color: #ff0080;
+}
 /* default position static */
 /* header{
     background-color: chocolate;
@@ -33,20 +42,20 @@ top: ; */
   background-color: chocolate;
   position: relative;
   right: 20px;
-} */
-
-/* main {
-  background-color: crimson;
-  height: 1500px;
 }
 
-!*position: fixed*!
-footer {
+ main {
+  background-color: crimson;
+  height: 1500px;
+} */
+
+/* position: fixed */
+/* footer {
   background-color: darkorchid;
   position: fixed;
   left: 0;
   top: 0;
-} */
+}  */
 
 /* position: absolute;
 left: 0;
@@ -54,23 +63,23 @@ top: 0;
 right: 0;
 bottom: 0;
 inset :0 */
-/* 
-header {
+
+/* header {
   background-color: chocolate;
   position: relative;
   
 }
 .header_child{
-  !* width: 100px; *!
-  !* height: 100px; *!
+  width: 100px; 
+  height: 100px; 
+  box-sizing: border-box;
   background-color: rgb(43, 255, 0);
   position: absolute;
-  !* bottom: 0; *!
-  !* top: 0; *!
-  !* right: 0; *!
-  !* left: 0; *!
+  bottom: 10px; 
+  top: 10px; 
+  right: 10px; 
+  left: 10px; 
   inset: 0;
-
 }
 
 main {
@@ -84,10 +93,7 @@ footer {
  
 } */
 
-/* 
-position sticky 
-
- */
+/* position sticky */
 
 header {
   background-color: chocolate;

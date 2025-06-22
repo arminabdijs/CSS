@@ -12,7 +12,6 @@ body {
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 .flex-item {
@@ -23,14 +22,13 @@ body {
 } */
 
 /* ---------------------------------------- */
-.container {
+/* .container {
   width: 1280px;
-  height: 200px;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
   background-color: #bd1212;
   display: flex;
-  
 }
 
 .flex-item {
@@ -38,24 +36,22 @@ body {
   height: 200px;
   background-color: #1976d2;
   margin: 10px;
-}
+} */
 
 /* ---------------------------------------- */
 /* .container {
   width: 1280px;
-  height: 200px;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   gap: 12px;
-  
 }
 
 .flex-item {
   width: 200px;
   height: 200px;
-  background-color: #1976d2;
-  
+  background-color: #1976d2; 
 } */
 
 /* ------------------------------------------ */
@@ -74,7 +70,6 @@ body {
   width: 400px;
   height: 200px;
   background-color: #1976d2;
-  
 } */
 
 /* ----------------------------------- */
@@ -87,8 +82,14 @@ body {
   gap: 12px;
   border: 1px solid black;
   justify-content: center;
-} */
- /* ---------------------------------------- */
+}
+
+.flex-item {
+  width: 200px;
+  height: 200px;
+  background-color: #1976d2;
+}  */
+/* ---------------------------------------- */
 /* .container {
   width: 1280px;
   height: 300px;
@@ -99,7 +100,13 @@ body {
   border: 1px solid black;
   justify-content: center;
   align-items: center;
-} */
+}
+
+.flex-item {
+  width: 200px;
+  height: 200px;
+  background-color: #1976d2;
+}  */
 /* --------------------------------------------------- */
 /* .container {
   width: 1280px;
@@ -111,7 +118,7 @@ body {
   border: 1px solid black;
   justify-content: space-between;
   align-items: center;
-} */
+}
 
 .flex-item {
   width: 200px;
@@ -133,4 +140,4 @@ body {
 .flex-item__orange {
   background-color: #ff9100;
   height: 200px;
-}
+} */

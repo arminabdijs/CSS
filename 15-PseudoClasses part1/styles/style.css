@@ -14,21 +14,21 @@ a {
   margin: 20px;
 }
 
-a:hover {
-  color: #039be5;
-}
 
 a:active {
   background-color: #d3c60e;
 }
 
 a:visited{
-    color: #3700ff;
+  color: #ff00ea;
 }
 
+a:hover {
+  color: #12e503;
+}
 
 input:focus{
-    outline-color: rgb(173, 21, 135);
+    outline-color: rgb(22, 196, 231);
 }
 
 

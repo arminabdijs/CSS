@@ -34,7 +34,9 @@ footer {
   border-color: rgb(228, 224, 10);
   margin-top:-50px ;
 } */
-header {
+
+
+/* header {
   background-color: chocolate;
   border-color: rgb(11, 224, 57);
   position: relative
@@ -72,4 +74,4 @@ footer {
   background-color: rgb(10, 255, 180);
   position: absolute;
   right: 400px;
-}
+} */
