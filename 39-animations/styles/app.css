@@ -1,6 +1,3 @@
-:root{
-  --pink:#ff0080; 
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,70 +6,132 @@
 
 
 .container {
-  /* max-width: 305px; */
-  max-width: 1780px;
-  height: 400px;
+  max-width: 1280px;
   margin: 0 auto;
-  background-color: #ff008048;
 }
 
 /* 
-@media screen and (min-width: 335px) {
-  .container{
-    max-width: 300px;
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation */
 
-    background-color: rgb(122, 238, 76);
+/* @keyframes loop {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}  */
+
+/* @keyframes circle-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+
+.circle{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color:aqua;
+  margin: 20rem auto;
+  animation-name: circle-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  
+} */
+
+/* animation-direction */
+/* .circle{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color:aqua;
+  margin: 20rem auto;
+  animation-name: circle-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction:reverse;
+  
+} */
+
+/*  animation-timing-function */
+/* .circle{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color:aqua;
+  margin: 20rem auto;
+  animation-name: circle-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
+  animation-timing-function: ease;
+  
+} */
+
+/* animation-fill-mode */
+/* .circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
 }
 
-@media screen and (min-width: 768px) {
-  .container{
-    max-width: 700px;
-
-    background-color: rgb(255, 0, 234);
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .container{
-    max-width: 980px;
-
-    background-color: rgb(255, 72, 0);
-  }
-}
-@media screen and (min-width: 1324px) {
-  .container{
-    max-width: 1280px;
-
-    background-color: aqua;
-  }
+@keyframes example {
+  from {top: 0px;}
+  to {top: 200px; background-color: blue;}
 } */
 
 
 
-.flex-container{
-  display: flex;
-  /* gap: 18px; */
-}
-
-
-.flex-item{
-  width: 100%; 
+/* .circle {
+  width: 100px;
   height: 100px;
-  background-color: #ff0080;
-  text-align: center;
-  line-height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: backwards;
 }
 
+@keyframes example {
+  from {top: 0px; background-color: yellow;}
+  to {top: 200px;}
+} */
 
-@media screen and (max-width: 876px){
-  /* .flex-container{
-    flex-wrap: wrap;
-  } */
-  .flex-item{ 
-    width: 50%;
-   }
-    .flex-container{
-    flex-wrap: wrap;
-  }
-} 
+
+.circle {
+   width: 100px;
+  height: 100px;
+  /* animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+
+  animation: example 5s linear 2s infinite alternate backwards;
+  position: relative;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:100px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:300px;}
+  100% {background-color:red; left:0px; top:400px;}
+}

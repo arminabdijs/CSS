@@ -24,5 +24,7 @@ body{
 .box{
     width: 100%;
     height: 400px;
+    opacity: 0.4;
     background-color: rgba(239, 108, 0,0.4);
 }
+

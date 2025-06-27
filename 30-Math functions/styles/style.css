@@ -17,11 +17,11 @@ body {
 }
 
 /* calc() */
-/* .box{
-    width: calc(100% - 10px);
+.box{
+    width: calc(100px * 10);
     height: 300px;
     background-color: aqua;
-} */
+}
 
 /* min() */
 /* .box{
@@ -38,8 +38,8 @@ body {
 } */
 
 /* clamp() */
-.box {
+/* .box {
   width: clamp(200px, 50%, 800px);
   height: 300px;
   background-color: aqua;
-}
+} */

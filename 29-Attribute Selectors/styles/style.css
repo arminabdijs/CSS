@@ -20,10 +20,12 @@ body{
 /* [type]{
     background-color: aquamarine;
 } */
+
 /* [attribute = "value"] */
 /* [type="text"]{
     background-color: aqua;
 } */
+ 
 /* [attribute ^= "value"] */
 /* [href^="https"]{
     background-color: aqua;

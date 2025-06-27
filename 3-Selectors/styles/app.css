@@ -30,18 +30,20 @@
 } */
 
 /* element element */
-/* .mysection .content-1,.mysection .content-2{
+/* .mysection .content-1 ,.mysection .content-2{
     color: red; 
 } */
+
+
 
 /* .mysection div{
     background-color: cadetblue;
 } */
 
-/* element > element
-.mysection > div{
+/* element > element */
+/* .mysection > div{
     background-color: lightgreen;
-} */
+}  */
 
 /* element1 + element2 */
 /* h1 + h2 {

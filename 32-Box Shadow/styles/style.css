@@ -1,8 +1,11 @@
+/* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+
 .cover {
   width: 400px;
   height: 400px;
   margin: 0 auto;
   background-color: #ff008c;
   box-shadow: 5px 5px 6px rgba(0, 0, 0,0.7);
+  box-shadow: 5px 5px 6px 2px rgba(0, 0, 0,0.7);
   box-shadow: 5px 5px 6px rgba(0, 0, 0,0.7) inset;
 }
